@@ -83,7 +83,7 @@ def navigatetoproduct(browser_option,Product):
     try:
         print("i am navigating to product")
         Home_page.navigate_to_product(browser_option,Product=Product) 
-        # time.sleep(10)
+        time.sleep(10)
 
     except Exception as e:
            print(f"Navigate to category error: {e}")
