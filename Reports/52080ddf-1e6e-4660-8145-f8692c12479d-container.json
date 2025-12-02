@@ -1,0 +1,1 @@
+{"uuid": "d5c2466e-9a92-4475-85bd-f76ad843d750", "befores": [{"name": "pytestbdd_stepdef_when_the user navigates to {Category} category and delete existing cart items", "status": "passed", "start": 1764576303375, "stop": 1764576303377}], "start": 1764576303375, "stop": 1764576316311}
