@@ -15,7 +15,7 @@ class cart_page:
         if Prod_name.nth(i).inner_text()==Product:
            cart_page.Prod_price=Prod_name.nth(i).locator(cart_locators.Cart_locators['Product_price_incart'][1]).inner_text()
            assert True
-           print(f"Product {Product} is present in the cart")
+           print(f"Product {cart_page.Prod_price} is present in the cart")
            
     
 
@@ -23,6 +23,8 @@ class cart_page:
 
     def verify_total_price(page:Page):
         total_price_cart=Helper1.getelements(page,cart_locators.Cart_locators["Total_price_incart"]).inner_text()
+        print(total_price_cart)
+        print(cart_page.Prod_price)
         assert total_price_cart==cart_page.Prod_price
         print("Total price matches the product price in cart")
         

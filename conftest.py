@@ -129,3 +129,10 @@ def pytest_runtest_makereport(item, call):
                 traceback.print_exc()
         else:
             print("WARNING: browser_page not available for screenshot")
+
+
+
+@pytest.mark.parametrize("Chrome")
+def test(request):
+   abc= request.param
+                

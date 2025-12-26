@@ -20,7 +20,7 @@ Feature: Add Product to Cart
     
     Examples:
       | Category  | Password  | Product         |
-      | Laptops   | abc1234   | MacBook Pro     |
+      | Laptops   | abc1234   | Sony vaio i5    |
 
     
    @afterproductadded @addtocart
@@ -34,5 +34,5 @@ Feature: Add Product to Cart
 
  Examples:
       | Category  | Password  | Product         |
-      | Laptops   | abc1234   | MacBook Pro     |
+      | Laptops   | abc1234   | Sony vaio i5    |
        
